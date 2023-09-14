@@ -13,7 +13,6 @@ html , body{
 }
 body{
     max-width: 1440px;
-    max-height: 1200px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,7 +23,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding-bottom: 40px;
 }
 .uppercase{
     text-transform: uppercase;
@@ -73,7 +71,7 @@ body{
 @media all and (max-width: 899px){
     .container{
         padding-top: 100px;
-        height: 132%;
+        padding-bottom: 40px;
     }
     .orange{
         border-radius: 10px 0 0 10px;
@@ -84,11 +82,12 @@ body{
     .dark{
         border-radius: 0 0 10px 10px;
     }
+    .attribution{
+        padding-top: 380px;
+        padding-bottom: 20px;
+    }
 }
 @media all and (max-width: 599px){
-    .container{
-        height: 198%;
-    }
     .orange{
         border-radius: 10px 10px 0 0;
     }
@@ -97,5 +96,8 @@ body{
     }
     .dark{
         border-radius: 0 0 10px 10px;
+    }
+    .attribution{
+        padding-top: 850px;
     }
 }
