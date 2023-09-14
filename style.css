@@ -71,7 +71,7 @@ body{
 }
 @media all and (max-width: 899px){
     .container{
-        padding-top: 100px;
+        padding-top: 20px;
         padding-bottom: 40px;
     }
     .orange{
@@ -84,7 +84,7 @@ body{
         border-radius: 0 0 10px 10px;
     }
     .attribution{
-        padding-top: 20px;
+        padding-top: 250px;
         padding-bottom: 20px;
     }
 }
@@ -99,6 +99,6 @@ body{
         border-radius: 0 0 10px 10px;
     }
     .attribution{
-        padding-top: 490px;
+        padding-top: 700px;
     }
 }
