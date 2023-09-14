@@ -13,6 +13,7 @@ html , body{
 }
 body{
     max-width: 1440px;
+    max-height: 1000px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -83,7 +84,7 @@ body{
         border-radius: 0 0 10px 10px;
     }
     .attribution{
-        padding-top: 380px;
+        padding-top: 20px;
         padding-bottom: 20px;
     }
 }
@@ -98,6 +99,6 @@ body{
         border-radius: 0 0 10px 10px;
     }
     .attribution{
-        padding-top: 850px;
+        padding-top: 490px;
     }
 }
