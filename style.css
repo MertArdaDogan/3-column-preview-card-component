@@ -24,6 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 .uppercase{
     text-transform: uppercase;
@@ -72,6 +73,7 @@ body{
 @media all and (max-width: 899px){
     .container{
         padding-top: 100px;
+        height: 156%;
     }
     .orange{
         border-radius: 10px 0 0 10px;
@@ -84,6 +86,9 @@ body{
     }
 }
 @media all and (max-width: 599px){
+    .container{
+        height: 234%;
+    }
     .orange{
         border-radius: 10px 10px 0 0;
     }
