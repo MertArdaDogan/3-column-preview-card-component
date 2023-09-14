@@ -13,7 +13,7 @@ html , body{
 }
 body{
     max-width: 1440px;
-    max-height: 1000px;
+    max-height: 1200px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -73,7 +73,7 @@ body{
 @media all and (max-width: 899px){
     .container{
         padding-top: 100px;
-        height: 156%;
+        height: 132%;
     }
     .orange{
         border-radius: 10px 0 0 10px;
@@ -87,7 +87,7 @@ body{
 }
 @media all and (max-width: 599px){
     .container{
-        height: 234%;
+        height: 198%;
     }
     .orange{
         border-radius: 10px 10px 0 0;
