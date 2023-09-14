@@ -1,0 +1,96 @@
+:root{
+    --orange    :hsl(31, 77%, 52%);
+    --cyan      :hsl(184, 100%, 22%);
+    --dark-cyan :hsl(179, 100%, 13%);
+    --p         :hsla(0, 0%, 100%, 0.75);
+    --gray      :hsl(0, 0%, 95%);
+    --deca      :'Lexend Deca', sans-serif;
+    --big       :'Big Shoulders Display', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+html , body{
+    height: 100%;
+}
+body{
+    max-width: 1440px;
+    max-height: 1000px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 470px;;
+}
+.orange{
+    background-color: var(--orange);
+    border-radius: 10px 0 0 10px;
+}
+.cyan{
+    background-color: var(--cyan);
+}
+.dark{
+    background-color: var(--dark-cyan);
+    border-radius: 0 10px 10px 0;
+}
+.card-body{
+    padding: 45px 45px 45px 45px;
+}
+.card-header{
+    font-size: 35px;
+    font-family: var(--big);
+    color: var(--gray);
+}
+.card-text{
+    line-height: 1.7;
+    font-size: 15px;
+    width: 210px;
+    font-family: var(--deca);
+    color: var(--p);
+}
+.card-button{
+    color: var(--p);
+    font-family: var(--deca);
+    text-decoration: none;
+    border: 2px solid var(--gray);
+    padding: 12px 22px 12px 22px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 50px;
+}
+@media all and (max-width: 899px){
+    .container{
+        padding-top: 100px;
+    }
+    .orange{
+        border-radius: 10px 0 0 10px;
+    }
+    .cyan{
+        border-radius: 0 10px 10px 0;
+    }
+    .dark{
+        border-radius: 0 0 10px 10px;
+    }
+}
+@media all and (max-width: 599px){
+    .orange{
+        border-radius: 10px 10px 0 0;
+    }
+    .cyan{
+        border-radius: initial;
+    }
+    .dark{
+        border-radius: 0 0 10px 10px;
+    }
+}
