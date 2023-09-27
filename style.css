@@ -60,14 +60,27 @@ body{
     color: var(--p);
 }
 .card-button{
-    color: var(--p);
     font-family: var(--deca);
     text-decoration: none;
     border: 2px solid var(--gray);
     padding: 12px 22px 12px 22px;
     border-radius: 100px;
+    background-color: var(--gray);
     position: absolute;
     bottom: 50px;
+}
+.orange .card-button{
+    color: var(--orange);
+}
+.cyan .card-button{
+    color: var(--cyan);
+}
+.dark .card-button{
+    color: var(--dark-cyan);
+}
+.card-button:hover{
+    background-color: initial;
+    color: var(--gray);
 }
 @media all and (max-width: 899px){
     .container{
@@ -84,7 +97,7 @@ body{
         border-radius: 0 0 10px 10px;
     }
     .attribution{
-        padding-top: 250px;
+        padding-top: 260px;
         padding-bottom: 20px;
     }
 }
@@ -99,6 +112,6 @@ body{
         border-radius: 0 0 10px 10px;
     }
     .attribution{
-        padding-top: 700px;
+        padding-top: 740px;
     }
 }
